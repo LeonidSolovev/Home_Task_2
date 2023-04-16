@@ -6,7 +6,7 @@
 int num1;
 while (true)
 {
-        Console.Write("Введите чило от 1 до 7: ");
+        Console.Write("Введите чиcло от 1 до 7: ");
         if (int.TryParse(Console.ReadLine(), out num1))
             if (num1 > 0)
                 if (num1 < 8)
