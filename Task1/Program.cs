@@ -8,9 +8,9 @@ while (true)
 {
         Console.Write("Введите чило от 100 до 999: ");
         if (int.TryParse(Console.ReadLine(), out num1))
-        if (num1 > 99)
-        if (num1 < 1000)
-              break;
+            if (num1 > 99)
+                if (num1 < 1000)
+                break;
         Console.WriteLine("Ошибка ввода!");
 }
 
